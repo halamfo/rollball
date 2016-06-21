@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle + 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
             {
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle - 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
                 {
@@ -105,7 +105,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle - 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
                 {
@@ -129,7 +129,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle + 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
                 {
@@ -148,7 +148,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle + 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
                 {
@@ -166,7 +166,7 @@ class ViewController: UIViewController {
         else
         {
             deltaangle = deltaangle - 0.1
-            print (deltaangle)
+            
             ball.transform = CGAffineTransformMakeRotation(deltaangle)
             UIView.animateWithDuration(0.02, animations:
                 {
